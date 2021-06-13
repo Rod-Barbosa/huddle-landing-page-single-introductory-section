@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Portfolio](https://gelatodigital.com/portfolio)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [rodrigos-huddle-landing-page-single-introductory-section](https://rodrigos-huddle-landing-page-single-introductory-section.netlify.app/)
 
 ## My process
 
