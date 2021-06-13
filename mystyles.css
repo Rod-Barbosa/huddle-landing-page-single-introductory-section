@@ -1,0 +1,155 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+.main {
+    margin: 8% 8%;
+}
+.logo{
+    min-height: 90px;
+    height: 5%;
+    background-image: url('./images/logo.svg');
+    background-position: left top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.picture{
+    min-height: 250px;
+    background-image: url('./images/illustration-mockups.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bot{
+    text-align: center;
+}
+h2{
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+button {
+    border: none;
+    border-radius: 30px;
+    width: 60%;
+    height: 10%;
+    color: hsl(257, 40%, 49%);
+    font-size: 12px;
+    padding: 4%;
+    box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.46);
+    margin: 4%;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.26);
+}
+.socialMedia {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+span {
+    font-size: 16px;
+    margin: 2%
+}
+span:hover{
+    cursor: pointer;
+}
+span:active {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+
+}
+@media screen and (min-width:600px) {
+    html {
+        min-height: 100%;
+     }
+    body {
+        background-image: url('./images/bg-desktop.svg');
+        background-size: cover;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        grid-template-rows: 100%;
+        margin: 4% 4%;
+    }
+    .logo{
+        min-height: 90px;
+        height: 22.5%;
+        background-image: url('./images/logo.svg');
+        background-position: left top;
+        background-size: 30%;
+        background-repeat: no-repeat;
+    }
+    .picture{
+        background-image: url('./images/illustration-mockups.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
+    .bot {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20%;
+        margin-left: 7%;
+        position: relative;
+
+    }
+    h2{
+        font-weight: 600;
+        font-size: 38px;
+        margin-right: 16%;
+        line-height: 1.5;
+    }
+    p{
+        margin-top: 0%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+        margin-right: 8%;
+    }
+    button {
+        height: 10%;
+        color: hsl(257, 40%, 49%);
+        font-size: 16px;
+        padding: 5%;
+        box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.46);
+        margin: 0%;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .socialMedia {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+    }
+span {
+    font-size: 40px;
+    margin: 5%
+}
+
+}
+
+@media screen and (min-width:600px) and (max-width: 1100) {
+    .main{
+        margin: 0% 0%;
+    }
+}
